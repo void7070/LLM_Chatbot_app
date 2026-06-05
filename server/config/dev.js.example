@@ -1,0 +1,11 @@
+// Copy this file to `dev.js` and fill in your own values.
+// `dev.js` is git-ignored so your real keys never get committed.
+module.exports = {
+    googleProjectID: 'your-gcp-project-id',
+    dialogFlowSessionID: 'bot-session',
+    dialogFlowSessionLanguageCode: 'en-US',
+    googleClientEmail: 'your-service-account@your-project.iam.gserviceaccount.com',
+    googlePrivateKey: '-----BEGIN PRIVATE KEY-----\n...\n-----END PRIVATE KEY-----\n',
+    mongoURI: '',
+    gptAPIKey: 'sk-...your-openai-api-key...',
+}
